@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eeeeee;
+}
+
+nav{
+    padding: 1rem;
+    position: fixed;
+    width: 100vw;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+nav li:hover{
+    color: #999999;
+}
+nav li:last-child{
+    margin-left: auto;
+    color: #006600;
+}
+.section-1{
+    height: 140vh;
+}
+
+.bg{
+    background-image: url('./images/DJI_0203-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
